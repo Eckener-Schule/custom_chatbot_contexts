@@ -47,7 +47,7 @@ Said file is being mounted into ``` - ./models:/root/.ollama/models```, as defin
 
 Use the exec_ollama.sh script to access the running ollama container, and once there, run the following command:
 ```shell
-ollama create wheely -f ./root/.ollama.models
+ollama create wheely -f ./root/.ollama/models/Modelfile
 ```
 
 Running the project in its default state requires running the previous command, since index.php includes a prompt using the custom wheely model.
