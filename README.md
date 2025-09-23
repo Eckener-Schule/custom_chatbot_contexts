@@ -40,7 +40,17 @@ It takes one argument, which is the model to be pulled. The following command wo
 ```shell
 ./tools/pull_model.sh llama3.2
 ```
-Running the project in its default state requires running the previous command, since index.php includes a prompt using llama3.2 as its model.
+
+#### Creating your own model
+In order to create our own model, use the available Modelfile, located inside the models directory.
+Said file is being mounted into ``` - ./models:/root/.ollama/models```, as defined in the docker-compose.yml file.
+
+Use the exec_ollama.sh script to access the running ollama container, and once there, run the following command:
+```shell
+ollama create wheely -f ./root/.ollama.models
+```
+
+Running the project in its default state requires running the previous command, since index.php includes a prompt using the custom wheely model.
 
 #### Compose
 Finally, in order to install some needed dependencies, run:
@@ -58,4 +68,3 @@ docker compose up -d
 You now have access to two different sites by entering the following addresses in your browser of choice:
 - Index.php [http://localhost:8080](http://localhost:8080)
 - PhpMyAdmin dashboard [http://localhost:8081](http://localhost:8081)
-
