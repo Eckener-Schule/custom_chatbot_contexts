@@ -1,0 +1,7 @@
+.idea
+.code
+
+vendor/
+db/
+models/*
+!models/Modelfile
