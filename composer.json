@@ -1,0 +1,5 @@
+{
+	"require": {
+		"ardagnsrn/ollama-php": "^1.0"
+	}
+}
