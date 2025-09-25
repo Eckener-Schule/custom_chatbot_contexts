@@ -68,3 +68,16 @@ docker compose up -d
 You now have access to two different sites by entering the following addresses in your browser of choice:
 - Index.php [http://localhost:8080](http://localhost:8080)
 - PhpMyAdmin dashboard [http://localhost:8081](http://localhost:8081)
+
+
+## Prompting the LLM
+### Asking the LLM a question:
+- wie man prompts schreibt
+
+### Obtaining the LLM's response:
+
+In order to obtain the LLM's response, we access the Client's response attribute and display it:
+```php
+$response = $completions->response;
+echo $response;
+```
