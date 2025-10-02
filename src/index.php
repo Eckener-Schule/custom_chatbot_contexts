@@ -13,13 +13,13 @@ use ArdaGnsrn\Ollama\Resources\Models;
 echo '<title>Scrum Projekt</title>';
 echo '<h1>Hello World!</h1>';
 
-echo '<p> Prompt: Once upon a time...';
+echo '<p> Prompt: First 5 numbers of the Fibonacci sequence';
 
 $client = \ArdaGnsrn\Ollama\Ollama::client('http://ollama-scrum:11434');
 
 $completions = $client->completions()->create([
 	'model' => 'wheely',
-	'prompt' => 'Tell me about wheelbarrows'
+	'prompt' => 'First 5 numbers of the Fibonacci sequence'
 ]);
 
 $response = $completions->response;

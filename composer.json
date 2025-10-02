@@ -1,5 +1,6 @@
 {
 	"require": {
-		"ardagnsrn/ollama-php": "^1.0"
+		"ardagnsrn/ollama-php": "^1.0",
+		"phpunit/phpunit": "^12.3.15"
 	}
 }

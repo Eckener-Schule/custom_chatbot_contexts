@@ -1,3 +1,4 @@
+#IDE
 .idea
 .code
 
@@ -5,3 +6,6 @@ vendor/
 db/
 models/*
 !models/Modelfile
+
+# composer
+composer.lock
