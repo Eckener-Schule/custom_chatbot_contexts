@@ -81,3 +81,9 @@ In order to obtain the LLM's response, we access the Client's response attribute
 $response = $completions->response;
 echo $response;
 ```
+
+## Unit Test
+In order to run Unit tests in a terminal, address the affected Container and include the path to the necessary test:
+```shell
+docker exec -it scrum-app vendor/bin/phpunit tests/promptTest.php
+```
