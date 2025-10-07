@@ -72,7 +72,17 @@ You now have access to two different sites by entering the following addresses i
 
 ## Prompting the LLM
 ### Asking the LLM a question:
-- wie man prompts schreibt
+
+With specific keys like ``` 'model' ``` and ``` 'prompt' ```, you can decide rather you want to change the model or
+ask different questions.
+
+```php
+$completions = $client->completions()->create([
+	'model' => 'wheely',
+	'prompt' => 'What Wheelbarrow suits me the best?'
+]);
+```
+
 
 ### Obtaining the LLM's response:
 
@@ -86,4 +96,8 @@ echo $response;
 In order to run Unit tests in a terminal, address the affected Container and include the path to the necessary test:
 ```shell
 docker exec -it scrum-app vendor/bin/phpunit tests/promptTest.php
+```
+
+```shell
+docker exec -it scrum-app vendor/bin/phpunit test/updateTest.php
 ```
