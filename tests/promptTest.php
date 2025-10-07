@@ -6,7 +6,7 @@ use ArdaGnsrn\Ollama\Responses\StreamResponse;
 
 final class PromptTest extends TestCase
 {
-    public function promptTest()
+    public function testprompt()
     {
         $client = \ArdaGnsrn\Ollama\Ollama::client('http://ollama-scrum:11434');
 
