@@ -97,3 +97,7 @@ In order to run Unit tests in a terminal, address the affected Container and inc
 ```shell
 docker exec -it scrum-app vendor/bin/phpunit tests/promptTest.php
 ```
+
+```shell
+docker exec -it scrum-app vendor/bin/phpunit test/updateTest.php
+```
