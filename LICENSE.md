@@ -20,3 +20,22 @@ By using this project, you agree to the terms of the license you select.
 | **Distribution / Sharing**  | Limited                                                | Strictly prohibited                                 |
 | **License Change Over Time** | Fixed                                                 | Fixed                                               |
 | **Main Goal**               | Protect against certain uses while allowing some sharing (internal use, testing, development) | Maximum protection; highly restrictive             |
+
+## Contributors
+
+This project was created by:
+- [Liudmyla Rybalko](https://github.com/liudmyla-rybalko) - Product Owner
+- [Cem Dogan](https://github.com/cemdogan1und1) - Product Owner & Developer
+- [Jordan Seifert](https://github.com/JSeiffertx) - Scrum Master & Developer
+- [Frank Mattis](https://github.com/Fattis-hash) - Scrum Master & Developer
+- [Rodrigo Vieira](https://github.com/rodrigovieira938) - Developer
+- [Suellen Almeida](https://github.com/suellenfalmeida) - Developer
+- [Thais Silva](https://github.com/ThaisVianaDaSilva) - Developer
+- [Tom Nessel](https://github.com/SargentPidizzel) - Developer
+- [Birger Wrobel](https://github.com/eomier) - Developer
+- [Daniel Soares](https://github.com/dansoar) - Developer
+- [Kim Trojaner](https://github.com/KCT977) - Developer
+- [Oskar Wesel](https://github.com/oszskar) - Developer
+- [Simon Heuer](https://github.com/DerKur1er) - Developer
+- [Jose Escauriza](https://github.com/JoseEscauriza) - Developer
+- [Jan Ole Hinrichsen](https://github.com/hinnerk-77) - Developer
